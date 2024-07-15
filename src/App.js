@@ -63,7 +63,7 @@ function App() {
     <Box className="content">
         <SideNav handleShow={handleshow} show={show}></SideNav>
         <Routes>
-          <Route path='/'  element={<Home/>}></Route>
+          <Route path='/home'  element={<Home/>}></Route>
           <Route path='/button' element={<AllButtons/>}></Route>
           <Route path='/checkbox' element={<CheckBox/>}></Route>
           <Route path='/fab' element={<FAB/>}></Route>
