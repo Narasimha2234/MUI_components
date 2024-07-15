@@ -47,7 +47,7 @@ const FormHandlingTwo = () => {
             valid=false
         }
         if(formdata.resume===null){
-            newErrors.resume="resume is required"
+            newErrors.resume="upload resume"
             valid=false
         }
         setErrors(newErrors)

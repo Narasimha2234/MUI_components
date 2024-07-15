@@ -21,7 +21,6 @@ const RatingComp = () => {
 
 export default RatingComp
 
-
 const rating =(
 
     <Box>

@@ -8,21 +8,21 @@ const Group = () => {
       Button Groups
     </Typography>
         <Grid container spacing={2}>
-            <Grid item sx={12} md={6} lg={4}>
+            <Grid item xs={12} md={6} lg={4}>
                 <ButtonGroup variant="contained" aria-label="Basic button group">
                     <Button>One</Button>
                     <Button>Two</Button>
                     <Button>Three</Button>
                 </ButtonGroup>
              </Grid>
-             <Grid item sx={12} md={6} lg={4}>
+             <Grid item xs={12} md={6} lg={4}>
                 <ButtonGroup variant="text" aria-label="Basic button group" orientation='vertical' >
                     <Button>One</Button>
                     <Button>Two</Button>
                     <Button>Three</Button>
                 </ButtonGroup>
              </Grid>
-             <Grid item sx={12} md={6} lg={4}>
+             <Grid item xs={12} md={6} lg={4}>
                 <ButtonGroup variant="outlined" aria-label="Basic button group">
                     <Button>One</Button>
                     <Button>Two</Button>
