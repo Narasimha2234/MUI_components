@@ -20,7 +20,7 @@ const BasicDialog = () => {
             <DialogContent>
                 <DialogContentText>
                     <Typography variant='body1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Tempora, recusandae! Minima vel porro nobis. Iure quasi voluptatum fugit maiores praesentium!</Typography>
+                        Tempora, recusandae! Minima vel porro nobis. Iure quasi voluptatum fugit maiores praesentium !</Typography>
                 </DialogContentText>
                 <DialogActions>
                     <Button onClick={handleClose}>open</Button>
